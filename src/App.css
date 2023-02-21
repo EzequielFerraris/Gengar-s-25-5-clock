@@ -1,0 +1,94 @@
+
+.App 
+{
+  width: 100%;
+  height: 100vh;
+  padding: 0 100px 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: top;
+  background-color: #A19DBB;
+  font-family: 'Nobile', sans-serif;
+}
+
+.buttons-container {
+  width: 310px;
+  margin: 10px 40px 10px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.controlers-container {
+  width: 310px;
+  margin: 10px 40px 10px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.gengar-image 
+{
+  height: 500px;
+  width: auto;
+  position: absolute;
+  right: 175px;
+  bottom: 100px;
+}
+
+.gengar-image2 
+{
+  display: none;
+}
+.title {
+  width: 310px;
+  margin: 40px 40px 10px 40px;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 1100px) 
+{
+  .App {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .buttons-container
+  {
+    margin: 20px;
+  }
+
+  .gengar-image 
+  {
+    max-width: 200px;
+    height: auto;
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .gengar-image2 
+  {
+    display: block;
+    position: absolute;
+    max-width: 200px;
+    height: auto;
+    right: 20px;
+    bottom: 20px;
+    transform: scaleX(-1);
+  }
+}
+
+/* colors:
+light violet: #A19DBB
+violet: #7D79A3
+dark violet: #56536F
+peach: #EB968E
+light peach: #F1B2AD
+gray : #C2CCD5
+*/

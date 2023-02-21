@@ -1,0 +1,53 @@
+.inner-container {
+  text-align: center;
+  width: 40%;
+  margin: 5px;
+}
+
+.timeSets {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 0.5fr 1fr);
+  grid-auto-rows: minmax(10px, auto);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-legend {
+  height: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.duration-button {
+    height: 50px;
+    width: border-box;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #7D79A3;
+    color: #EB968E;
+    border-radius: 15px;
+    border: 2px solid #EB968E;
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+.duration-button:hover{
+    background-color: #56536F
+  }
+
+.time-number {
+  height: 40px;
+  width: 30px;
+}
+
+
+
+

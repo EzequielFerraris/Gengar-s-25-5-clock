@@ -1,0 +1,19 @@
+
+.controler-button {
+    max-width: 30%;
+    height: 30px;
+    display: flex;
+    flex: 1 1 ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 90%; 
+    background-color: #7D79A3;
+    color: #EB968E;
+    border-radius: 15px;
+    border: 2px solid #EB968E;
+    margin: 4px 0px 4px 0px;
+    cursor: pointer;
+    user-select: none;
+}
