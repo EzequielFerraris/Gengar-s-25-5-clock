@@ -1,7 +1,6 @@
 import './App.css';
 import React, {useState, useEffect, useRef} from 'react';
 import gengar from './images/gengar.png';
-import gengarFace from './images/gengar_face.png';
 import Clock from './components/Clock';
 import DurationButton from './components/DurationButton';
 import ControlerButton from './components/ControlerButton';
@@ -40,7 +39,7 @@ function App()
   const changeTime = (amount, type) => {
     if(type === 'break')
     {
-      if(breakTime <= 60 && amount < 0 || breakTime >= (3600)) 
+      if((breakTime <= 60 && amount < 0) || (breakTime >= 3600)) 
       {
         return false;
       }
@@ -49,7 +48,7 @@ function App()
     }
     else if(type === 'session')
     {
-      if(sessionTime <= 60 && amount < 0 || sessionTime >= (3600)) 
+      if((sessionTime <= 60 && amount < 0) || (sessionTime >= 3600)) 
       {
         return false;
       }
